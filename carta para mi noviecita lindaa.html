@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi hermosa novia nicole</title>
+    <style>
+        body {
+            background-color: #ffcccb; /* Rosado claro */
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://cdn.pixabay.com/photo/2016/08/09/10/02/heart-1586464_1280.png'); /* Fondo con corazones */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 1200px;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.85); /* Fondo blanco con transparencia */
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1;
+            margin: 0 20px; /* Espaciado entre la tarjeta y las imágenes */
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff1493; /* Color rosa fuerte para el título */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px #fff; /* Sombra suave en el texto */
+        }
+
+        p {
+            font-size: 1.4em;
+            color: #555;
+            line-height: 1.8;
+            margin: 0 auto;
+        }
+
+        .image {
+            width: 150px; /* Ancho ajustado de las imágenes */
+            height: auto; /* Altura automática para mantener la proporción */
+            border-radius: 10px; /* Bordes redondeados en las imágenes */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombra suave en las imágenes */
+        }
+
+        /* Animación flotante de corazones */
+        .floating-heart {
+            position: fixed;
+            font-size: 2.5em;
+            color: #ff69b4;
+            animation: float 5s infinite ease-in-out;
+        }
+
+        .floating-heart:nth-child(2) {
+            left: 20%;
+            animation-duration: 6s;
+            font-size: 3em;
+        }
+
+        .floating-heart:nth-child(3) {
+            left: 50%;
+            animation-duration: 7s;
+        }
+
+        .floating-heart:nth-child(4) {
+            left: 80%;
+            animation-duration: 8s;
+        }
+
+        @keyframes float {
+            0% { bottom: -50px; opacity: 0; }
+            50% { opacity: 1; }
+            100% { bottom: 100vh; opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="foto1.jpg" alt="Foto Izquierda" class="image"> <!-- Imagen izquierda -->
+        
+        <div class="card">
+            <h1>Mi hermosa novia Nicole 💖</h1>
+            <p>Te agradezco, cada día a tu lado es mi motivo de felicidad. Eres la mejor persona que he conocido y a tu lado he mejorado mucho. Eres mi personita favorita, cada día quiero mejorar por ti, por los dos. Ser tu novio me ha hecho ser muy feliz, y espero que yo también te haga muy feliz a ti. Cada momento juntos, cada risa, cada recuerdo a tu lado me llena de alegría. Te amo, mi cholocate blanco, amor de mi vida, mi todo. 💕</p>
+        </div>
+
+        <img src="foto2.jpg" alt="Foto Derecha" class="image"> <!-- Imagen derecha -->
+    </div>
+
+    <!-- Corazones flotantes -->
+    <div class="floating-heart">❤️</div>
+    <div class="floating-heart">💖</div>
+    <div class="floating-heart">💕</div>
+    <div class="floating-heart">💞</div>
+
+</body>
+</html>
